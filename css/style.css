@@ -93,7 +93,8 @@ h6,
 
 .btn-outline-body {
     color: whitesmoke;
-    border-color: orange;
+    border-color: whitesmoke;
+    border-radius: 5px;
 }
 
 .btn-outline-body:hover {
@@ -131,6 +132,12 @@ h6,
     top: -100px;
     transition: .5s;
 }
+
+.navbar .nav-item .dropdown-menu {
+   background-color: #004963;
+}
+
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
